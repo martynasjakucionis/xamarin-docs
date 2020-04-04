@@ -217,7 +217,7 @@ In this exercise you will create a user interface to consume `RestService` class
                 string requestUri = endpoint;
                 requestUri += $"?q={cityEntry.Text}";
                 requestUri += "&units=imperial"; // or units=metric
-                requestUri += $"&APPID={Constants.OpenWeatherMapAPIKey}";
+                requestUri += $"&appid={Constants.OpenWeatherMapAPIKey}";
                 return requestUri;
             }
         }
